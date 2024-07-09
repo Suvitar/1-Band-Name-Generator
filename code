@@ -1,0 +1,28 @@
+#band name generator
+
+#adjective + favorite animal = band name
+#adjevtives comes from a dictionary where 
+#the birth month is the key and the value is the adjective
+
+
+print("Welcome to the Band Name Generator! \n")
+
+adjectives = {
+  "january": "Frosty",
+  "february": "Blazing",
+  "march": "Cool",
+  "april": "Fragrant",
+  "may": "Fresh",
+  "june": "Skibidi",
+  "july": "Sweet",
+  "august": "Bobbing",
+  "septemper": "Rolling",
+  "october": "Ghastly",
+  "november": "Thorny",
+  "december": "Festive", 
+}
+
+month = input("What is your birth month? \n").lower()
+animal = input("What is your favorite animal? \n")
+
+print(f"Your band name could be {adjectives[month]} {animal}!")
